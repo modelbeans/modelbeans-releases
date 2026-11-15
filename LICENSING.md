@@ -8,4 +8,4 @@ ModelBeans and SDK artifacts retain their applicable MIT OR Apache-2.0 licensing
 
 Inference engines, bundled libraries, system redistributables and model weights have their own licenses. Consult the notices included with each release. Model weights are not included unless explicitly listed.
 
-No product binaries or SDK packages have been published in this repository at initialization.
+The 0.1.97 preview contains the desktop installer and RuntimeShare. A standalone SDK/developer bundle is planned separately.

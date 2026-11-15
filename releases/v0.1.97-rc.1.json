@@ -1,0 +1,61 @@
+{
+  "schema": "modelbeans.public-release/v1",
+  "version": "0.1.97",
+  "tag": "v0.1.97-rc.1",
+  "channel": "preview",
+  "platform": "windows-x64",
+  "signature": "NotSigned",
+  "models_included": false,
+  "runtimeshare_included": true,
+  "application": {
+    "source_commit": "770ebe528b6aa45d64565fd7b32ef2facd07eff5",
+    "source_dirty": false,
+    "built_at": "2026-11-14T23:17:13.275Z",
+    "service_source_sha256": "01fe6d9d85561884bd743763bf955d75b4036313802b6973a74261385741d4ab"
+  },
+  "runtime": {
+    "release_source_commit": "10151ac6df2bec4edd240b1c75ddafde9095feff",
+    "worker_recorded_source_commit": "b513ac9598135c409276b2ea018f0b11cbed2a1d",
+    "worker_recorded_source_dirty": true,
+    "native_binary_policy": "Reused tested native payload; SHA256 matches verified. Not a clean rebuild of every runtime binary.",
+    "reused_native_binary_count": 128
+  },
+  "components": {
+    "llama.cpp": "b12359",
+    "openvino": "2026.4.1",
+    "openvino-genai": "2026.4.1.0",
+    "onnxruntime-genai": "0.19.0",
+    "onnxruntime-directml": "1.24.4",
+    "directml": "1.15.4",
+    "stable-diffusion.cpp": "master-1098-b521db4",
+    "audio.cpp": "0.9.4 with SeedVC F0 adaptation",
+    "strata-suite": "0.2.13",
+    "strata-release-revision": "0.2.13.1",
+    "strata-engine": "0.1.59"
+  },
+  "validation": {
+    "installer_resources": 6829,
+    "isolated_runtime_deployment": "passed",
+    "real_windows_task_registration_start_cleanup": "passed",
+    "console_free_install_reinstall_stop_start": "passed",
+    "native_providers_detected": 9,
+    "available_on_tested_intel_machine": 8,
+    "embedded_python_node_real_cpu_inference": "passed on preceding 9c1cbe3 candidate with identical native payload; not repeated after installer-only fix",
+    "amd_final_candidate": "pending",
+    "protected_legacy_task_migration": "not tested; fixture unavailable",
+    "openvino_model_inference": "not tested for this backend upgrade",
+    "linux_and_discrete_gpu": "not released"
+  },
+  "artifacts": [
+    {
+      "name": "ModelBeans-0.1.97-win-x64.exe",
+      "size": 659447734,
+      "sha256": "0b5cc1d2996ab12bf593c9eaa4709b2b666af7701d38efa6463052e40937d024"
+    },
+    {
+      "name": "ModelBeans-0.1.97-licenses.zip",
+      "size": 2474608,
+      "sha256": "231e0d509d0b0ee705d23617fa205f23af10fd662aae70a27eb0d7e850ae69a9"
+    }
+  ]
+}

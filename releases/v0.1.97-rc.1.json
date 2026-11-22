@@ -8,49 +8,38 @@
   "models_included": false,
   "runtimeshare_included": true,
   "application": {
-    "source_commit": "770ebe528b6aa45d64565fd7b32ef2facd07eff5",
+    "source_commit": "e6aa810e879af6789441c3750fe9fa1d2a8c0d33",
+    "public_source_commit": "259eb0b5a502ba0a0f7198619c3e35478f57df95",
     "source_dirty": false,
-    "built_at": "2026-11-14T23:17:13.275Z",
-    "service_source_sha256": "01fe6d9d85561884bd743763bf955d75b4036313802b6973a74261385741d4ab"
+    "local_only_patch": "e6aa810e879af6789441c3750fe9fa1d2a8c0d33",
+    "built_at": "2026-11-22T19:35:38+08:00",
+    "service_source_sha256": "2b6de38e63752a6cc4cf7d4e2fa49c95afd6ddaf0fbfe205427c126a69a10a6b",
+    "local_only_patch_commit": "e6aa810e879af6789441c3750fe9fa1d2a8c0d33"
   },
   "runtime": {
-    "release_source_commit": "10151ac6df2bec4edd240b1c75ddafde9095feff",
-    "worker_recorded_source_commit": "b513ac9598135c409276b2ea018f0b11cbed2a1d",
-    "worker_recorded_source_dirty": true,
-    "native_binary_policy": "Reused tested native payload; SHA256 matches verified. Not a clean rebuild of every runtime binary.",
-    "reused_native_binary_count": 128
-  },
-  "components": {
-    "llama.cpp": "b12359",
-    "openvino": "2026.4.1",
-    "openvino-genai": "2026.4.1.0",
-    "onnxruntime-genai": "0.19.0",
-    "onnxruntime-directml": "1.24.4",
-    "directml": "1.15.4",
-    "stable-diffusion.cpp": "master-1098-b521db4",
-    "audio.cpp": "0.9.4 with SeedVC F0 adaptation",
-    "strata-suite": "0.2.13",
-    "strata-release-revision": "0.2.13.1",
-    "strata-engine": "0.1.59"
+    "build_source_commit": "7a824d916668c9c2da372af97d4e58b6facba683",
+    "public_source_commit": "6df2ff56c242fe1e1cc5d564be49d2db183f3fb6",
+    "sdk_build_source_commit": "a22b222716dd11a119deca62b6271d91bcb6b4f5",
+    "sdk_public_source_commit": "1da1b8d72c324a91a773c049359a763d4ecfff48",
+    "native_binary_policy": "Runtime binaries were validated from the local source commits listed here; public commits record the same code with canonical published SDK pins."
   },
   "validation": {
     "installer_resources": 6829,
     "isolated_runtime_deployment": "passed",
-    "real_windows_task_registration_start_cleanup": "passed",
-    "console_free_install_reinstall_stop_start": "passed",
+    "runtime_upgrade_scenarios": "passed in isolated verification",
+    "installer_window_icon": "passed",
+    "service_registration": "isolated stub only; not validated against live user service",
+    "real_scheduler_migration": "not tested; fixture unavailable",
     "native_providers_detected": 9,
     "available_on_tested_intel_machine": 8,
-    "embedded_python_node_real_cpu_inference": "passed on preceding 9c1cbe3 candidate with identical native payload; not repeated after installer-only fix",
     "amd_final_candidate": "pending",
-    "protected_legacy_task_migration": "not tested; fixture unavailable",
-    "openvino_model_inference": "not tested for this backend upgrade",
     "linux_and_discrete_gpu": "not released"
   },
   "artifacts": [
     {
       "name": "ModelBeans-0.1.97-win-x64.exe",
-      "size": 659447734,
-      "sha256": "0b5cc1d2996ab12bf593c9eaa4709b2b666af7701d38efa6463052e40937d024"
+      "size": 659966166,
+      "sha256": "740a7b1221324ef12e2b29e643e35d9331451eaf638f49c094520a6f3f36ec10"
     },
     {
       "name": "ModelBeans-0.1.97-licenses.zip",

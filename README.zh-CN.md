@@ -1,5 +1,7 @@
 # ModelBeans
 
+
+[直接下载 ModelBeans 0.1.97](<https://github.com/modelbeans/modelbeans-releases/releases/download/v0.1.97-rc.1/ModelBeans-0.1.97-win-x64.exe>) · [版本说明](https://github.com/modelbeans/modelbeans-releases/releases/tag/v0.1.97-rc.1)
 **在自己的电脑上运行 AI，也让常用工具用上它。**
 
 [English](README.md) · [快速上手](docs/getting-started.zh-CN.md) · [嵌入你的应用](docs/embedding.zh-CN.md) · [反馈问题](https://github.com/modelbeans/modelbeans-releases/issues)
@@ -12,7 +14,7 @@ ModelBeans 是一个个人业余项目。我和 GPT、Claude 一起，一点点�
 
 ModelBeans 也内置了一个智能体。我会持续打磨它，让它与本地模型平台一起成长，逐步把模型管理、多种推理后端、资源感知和性能评测这些平台能力，转化为完成实际任务的优势。我希望它越来越懂得如何用好用户电脑上的模型和资源，成长为一个有自己特色、能帮上忙的智能体。
 
-> **ModelBeans 0.1.97 · Windows x64 公开预览版。** [下载与版本说明](https://github.com/modelbeans/modelbeans-releases/releases/tag/v0.1.97-rc.1) · [兼容范围与已知限制](docs/compatibility.zh-CN.md)。完整安装包包含 RuntimeShare，模型另行下载。现阶段不公开产品实现源码。
+> **ModelBeans 0.1.97 · Windows x64 公开预览版。** [直接下载 ModelBeans 0.1.97](https://github.com/modelbeans/modelbeans-releases/releases/download/v0.1.97-rc.1/ModelBeans-0.1.97-win-x64.exe) · [版本说明](https://github.com/modelbeans/modelbeans-releases/releases/tag/v0.1.97-rc.1) · [兼容范围与已知限制](docs/compatibility.zh-CN.md)。完整安装包包含 RuntimeShare，模型另行下载。现阶段不公开产品实现源码。
 
 ## 操作系统与硬件支持
 
@@ -79,7 +81,7 @@ ModelBeans 是在 Intel 和 AMD 集成显卡的 Windows 电脑上开发和测试
 
 开始使用：
 
-1. 从 [Releases](https://github.com/modelbeans/modelbeans-releases/releases) 下载适合自己系统的安装包，并查看该版本支持的硬件和后端。
+1. 从 [直接下载](https://github.com/modelbeans/modelbeans-releases/releases/download/v0.1.97-rc.1/ModelBeans-0.1.97-win-x64.exe) 安装包，并查看[版本兼容说明](https://github.com/modelbeans/modelbeans-releases/releases/tag/v0.1.97-rc.1)。
 2. 从模型市场下载一个适合本机内存的小模型，或导入已有模型。
 3. 加载模型，先完成一次简单对话。
 4. 需要接入其他工具时，启用 API 服务，复制服务地址、密钥和模型标识。

@@ -1,5 +1,7 @@
 # ModelBeans
 
+
+[Download ModelBeans 0.1.97 directly](<https://github.com/modelbeans/modelbeans-releases/releases/download/v0.1.97-rc.1/ModelBeans-0.1.97-win-x64.exe>) · [Release notes](https://github.com/modelbeans/modelbeans-releases/releases/tag/v0.1.97-rc.1)
 **Run AI on your PC. Connect it to your tools.**
 
 [简体中文](README.zh-CN.md) · [Getting started](docs/getting-started.md) · [Embed in your app](docs/embedding.md) · [Report an issue](https://github.com/modelbeans/modelbeans-releases/issues)
@@ -12,7 +14,7 @@ I want ModelBeans to bring these steps together in one platform and take care of
 
 ModelBeans also includes a built-in agent. I’ll keep improving it alongside the local model platform, gradually turning model management, multiple inference backends, resource awareness, and performance evaluation into practical advantages for getting tasks done. My hope is for it to become better at making use of the models and resources on your computer, and grow into a useful agent with a character of its own.
 
-> **ModelBeans 0.1.97 · Windows x64 public preview.** [Downloads and release notes](https://github.com/modelbeans/modelbeans-releases/releases/tag/v0.1.97-rc.1) · [Compatibility and known limitations](docs/compatibility.md). RuntimeShare is included; models are downloaded separately. Product implementation source is not published at this stage.
+> **ModelBeans 0.1.97 · Windows x64 public preview.** [Download ModelBeans 0.1.97 directly](https://github.com/modelbeans/modelbeans-releases/releases/download/v0.1.97-rc.1/ModelBeans-0.1.97-win-x64.exe) · [Release notes](https://github.com/modelbeans/modelbeans-releases/releases/tag/v0.1.97-rc.1) · [Compatibility and known limitations](docs/compatibility.md). RuntimeShare is included; models are downloaded separately. Product implementation source is not published at this stage.
 
 ## Operating systems and hardware
 
@@ -79,7 +81,7 @@ The ModelBeans desktop window does not need to stay open. Here, embedding means 
 
 To get started:
 
-1. Download a package for your system from [Releases](https://github.com/modelbeans/modelbeans-releases/releases), and check its hardware and backend notes.
+1. Download a package for your system from [direct download](https://github.com/modelbeans/modelbeans-releases/releases/download/v0.1.97-rc.1/ModelBeans-0.1.97-win-x64.exe), then review the [release and compatibility notes](https://github.com/modelbeans/modelbeans-releases/releases/tag/v0.1.97-rc.1).
 2. Download a small model that fits your machine, or import one you already have.
 3. Load the model and try a short conversation.
 4. To connect another tool, enable the API service and copy its address, API key, and model identifier.

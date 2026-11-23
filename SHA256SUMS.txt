@@ -1,4 +1,2 @@
-740a7b1221324ef12e2b29e643e35d9331451eaf638f49c094520a6f3f36ec10  ModelBeans-0.1.97-win-x64.exe
-f4499b828838cdc739da5e84caad8f368a579c4ef90fd0d2678d1bb825857544  ModelBeans-0.1.97-win-x64.exe.sha256
-563aa16e4f178e194dfce36bccaa1cf7e6a9c0771722081073ca8e3025ebee84  release-manifest.json
-231e0d509d0b0ee705d23617fa205f23af10fd662aae70a27eb0d7e850ae69a9  ModelBeans-0.1.97-licenses.zip
+eac7b3ea2626ab7d674cf0888d64e56ddaf1fafa153a7278ecdf7f303fc57335  ModelBeans-0.1.99-win-x64.exe
+d8a4144774eace8d9f73c01cffed9a6c7835523b714795a29cf3d1d209d339ee  ModelBeans-0.1.99-licenses.zip

@@ -1,0 +1,34 @@
+{
+  "schema": "modelbeans.public-release/v1",
+  "version": "0.1.99",
+  "tag": "v0.1.99",
+  "channel": "stable",
+  "platform": "windows-x64",
+  "signature": "NotSigned",
+  "models_included": false,
+  "runtimeshare_included": true,
+  "application": {
+    "base_source_commit": "e6aa810e879af6789441c3750fe9fa1d2a8c0d33",
+    "source_dirty": true,
+    "service_source_sha256": "c57c05b0bd6655065f37cd5bd41891d84b04e5413acd88e12956b78e261ccffe",
+    "desktop_version": "0.1.99",
+    "source_provenance": "Private build record retains base revisions, source deltas and installer script hashes; native components reused without changes from the user-tested 0.1.97 karaoke/installation fix package."
+  },
+  "artifacts": [
+    {
+      "name": "ModelBeans-0.1.99-win-x64.exe",
+      "size": 659710504,
+      "sha256": "eac7b3ea2626ab7d674cf0888d64e56ddaf1fafa153a7278ecdf7f303fc57335"
+    },
+    {
+      "name": "ModelBeans-0.1.99-licenses.zip",
+      "size": 2075915,
+      "sha256": "d8a4144774eace8d9f73c01cffed9a6c7835523b714795a29cf3d1d209d339ee"
+    }
+  ],
+  "limitations": [
+    "Audio Studio remains experimental.",
+    "Song voice conversion can be slow; this UI change does not improve inference speed.",
+    "Final 0.1.99 package not revalidated on every Intel/AMD system; Linux and discrete GPUs not certified."
+  ]
+}

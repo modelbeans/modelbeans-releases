@@ -25,3 +25,17 @@ Only tested capabilities may be advertised. A successful build or mock test does
 For models, local hardware requirements and licenses apply independently. API compatibility refers to the documented and tested subset, not every feature of an upstream provider.
 
 No automated publishing workflow is configured by this repository initialization.
+
+## Release channels from 0.1.99
+
+The final numeric component (patch number) is a project-specific channel convention:
+odd numbers are reserved for tested stable releases; even numbers are experimental
+and marked **Pre-release** on GitHub. Candidates may also use an explicit
+`-rc.N` suffix and remain Pre-release, regardless of parity.
+An odd version number alone is not proof of validation. Individual experimental
+features, such as Audio Studio, may remain experimental inside a stable release.
+
+自 0.1.99 起，版本号最后一位（补丁号）为奇数时用于经过验收的正式版本，
+偶数时用于实验版本，并在 GitHub 标为 Pre-release。带 `-rc.N` 的候选版本
+无论奇偶均为预发布。奇数本身不代表已经通过验证；正式版本中仍可能包含明确
+标注的实验性功能，例如音频工作室。
